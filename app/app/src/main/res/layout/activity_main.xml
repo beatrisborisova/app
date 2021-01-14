@@ -8,7 +8,7 @@
     tools:context=".MainActivity2">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="235dp"
         android:layout_height="51dp"
         android:text="@string/next"
@@ -22,20 +22,20 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="193dp"
+        android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="@string/choose_folder"
         android:textSize="24sp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.138"
-        tools:text="Choose folder:" />
+        tools:text="Choose an option:" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/radioGroupId"
         android:layout_width="379dp"
         android:layout_height="361dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +55,7 @@
             android:id="@+id/radioButton2"
             android:layout_width="248dp"
             android:layout_height="wrap_content"
-            android:text="@string/radiobutton"
+            android:text="@string/radiobutton2"
             android:textSize="24sp"
             tools:text="Sent" />
 

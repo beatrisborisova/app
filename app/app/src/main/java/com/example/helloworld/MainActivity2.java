@@ -20,22 +20,22 @@ public class MainActivity2 extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         String message = extras.getString("SelectedRadioButton");
         switch (message){
-            case "1":
+            case "radioButton1":
                 imageViewPhoto.setImageResource(R.drawable.inbox);
                 break;
 
-            case "2":
+            case "radioButton2":
                 imageViewPhoto.setImageResource(R.drawable.sent);
                 break;
         }
 
-button2 = (Button) findViewById(R.id.button2);
-button2.setOnClickListener(new View.OnClickListener() {
-    @Override
-            public void onClick (View v) {
-        openMainActivity ();
-            }
-        });
+        button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+                    public void onClick (View v) {
+                openMainActivity ();
+                    }
+                });
 }
 
 public void openMainActivity() {

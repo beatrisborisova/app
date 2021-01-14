@@ -11,7 +11,7 @@
         android:id="@+id/button2"
         android:layout_width="272dp"
         android:layout_height="57dp"
-        android:text="@string/next"
+        android:text="@string/goBack"
         app:backgroundTint="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,28 +19,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.881"
-        tools:text="Previous" />
+        tools:text="Go back" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.506"
-        app:srcCompat="@drawable/inbox"
-        android:contentDescription="@string/todo" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="412dp"
-        android:layout_height="511dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.504"
-        app:srcCompat="@drawable/sent"
+        android:foregroundGravity="center_horizontal"
         android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

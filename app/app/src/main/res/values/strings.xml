@@ -6,12 +6,13 @@
     <string name="choose_folder">Choose Folder</string>
     <string name="sent">Sent</string>
     <string name="trash">Trash</string>
-    <string name="next">NEXT</string>
+    <string name="next">Next</string>
+    <string name="goBack">Go back</string>
     <string name="select_folder">Select Folder</string>
-    <string name="radiobutton">RadioButton</string>
-    <string name="radiobutton">RadioButton</string>
+    <string name="radiobutton">Inbox</string>
+    <string name="radiobutton2">Sent</string>
     <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
 </resources>
